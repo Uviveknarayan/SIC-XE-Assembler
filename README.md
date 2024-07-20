@@ -7,7 +7,7 @@ SIC-XE stands for Simplified Instructional Computer Extended Version which is ba
 My implementation provides support for literals, symbol defining statements, expressions and program blocks.
 
 ### Input
-Assembly programs in .asm file provided using SIC-XE standard set of instructions.
+**Assembly program** in .asm file provided using SIC-XE standard set of instructions.
 ### Output
 1. **Object Program file** containing the header, text, modification and end records.
 2. **Intermediate file** containing useful information like addresses of each instruction and variable produced by pass 1 and used by pass 2.
