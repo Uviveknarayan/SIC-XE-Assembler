@@ -21,7 +21,7 @@ My implementation provides support for literals, symbol defining statements, exp
 2. ./a.exe
 3. Give input file name as input.
 ```
-### Ubuntu/ Linux distributions
+#### Ubuntu/ Linux distributions
 ```
 1. Run g++ Pass2.cpp
 2. ./a.out
