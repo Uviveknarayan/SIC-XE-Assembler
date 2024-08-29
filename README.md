@@ -35,7 +35,7 @@ Clone this repository:
 git@github.com:Uviveknarayan/SIC-XE-Assembler.git
 ```
 ## Acknowledgement
-If you like/ find our work useful, please star this repository. If there are any queries, please raise issues on this repo, I will get back to you as soon as possible.
+I would like to thank [Prof. Manoj Misra](https://www.iitr.ac.in/~CSE/Manoj_Mishra) for providing us this wonderful opportunity to learn about intricacies of an assembler. If you like/ find my work useful, please star this repository. If there are any queries, please raise issues on this repo, I will get back to you as soon as possible.
 ## Footnotes
 1. System Software by Leland L Beck.
 2. CSN-252 System Software Course slides by [Prof. Manoj Misra](https://www.iitr.ac.in/~CSE/Manoj_Mishra).
