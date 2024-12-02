@@ -15,6 +15,7 @@ My implementation provides support for literals, symbol defining statements, exp
 4. **Error file** containing errors encountered during pass 1 and pass 2.
 5. **Tables** file containing all the necessary tables constructed during the passes of assemblers such as Symbol table and Literal table.
 ### How to run
+The instructions to run the assembler and the input and output explanation along with the methodolgy used can be found in this [manual](https://github.com/Uviveknarayan/SIC-XE-Assembler/blob/main/21114108_SIC-XE%20assembler%20Manual.pdf)
 #### Windows
 ```
 1. Run g++ Pass2.cpp
