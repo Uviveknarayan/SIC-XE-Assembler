@@ -1,10 +1,19 @@
 # SIC-XE-Assembler
 This repository contains the code for SIC-XE Assembler which works on the SIC-XE assembly language instructions and outputs machine language code in binary. I have included support for program blocks in my assembler and it is written in C++ based on principles we learnt in the course CSN-252 (System Software).
-## About SIC-XE
-**SIC-XE** stands for **Simplified Instructional Computer Extended Version** which is backward compatible with SIC. It was introduced in the book **System Software by LL Beck** for explaining major characteristics and  traits of assembly languages through just one language. In my assembler I have aimed to incorporate all characteristics of SIC-XE and Program blocks. The assembler is designed in the conventional two pass manner. The first pass aims to store the variables and populate the symbol table and the second pass then starts translating the assembly code to machine code.
 
-## Implementation
-My implementation provides support for literals, symbol defining statements, expressions and program blocks.
+![image](https://github.com/user-attachments/assets/08c20eb8-c411-48db-b7d7-1cdb67f93a78)
+## About SIC-XE
+**SIC-XE** stands for **Simplified Instructional Computer Extended Version** which is backward compatible with SIC. It was introduced in the book **System Software by LL Beck** for explaining major characteristics and  traits of assembly languages through an exploratory assembly language.
+This assembler incorporates the key features of SIC-XE, including program blocks, and is implemented in a traditional two-pass manner:
+
+* Pass 1: Parses the source code, processes variables, and generates the symbol table.
+* Pass 2: Translates the parsed assembly instructions into machine code.
+
+### Features
+* **Support for literals**: Handles literal values efficiently.
+* **Symbol-defining statements**: Processes symbol definitions and expressions.
+* **Program blocks**: Allows modular code handling via program blocks.
+* **Error handling**: Identifies and logs errors from both passes.
 
 ### Input
 **Assembly program** in .asm file provided using SIC-XE standard set of instructions.
@@ -15,7 +24,10 @@ My implementation provides support for literals, symbol defining statements, exp
 4. **Error file** containing errors encountered during pass 1 and pass 2.
 5. **Tables** file containing all the necessary tables constructed during the passes of assemblers such as Symbol table and Literal table.
 ### How to run
-The instructions to run the assembler and the input and output explanation along with the methodolgy used can be found in this [manual](https://github.com/Uviveknarayan/SIC-XE-Assembler/blob/main/21114108_SIC-XE%20assembler%20Manual.pdf)
+#### Prerequisites
+* A working C++ compiler such as g++.
+* Input assembly code in a .asm file.
+I have briefly listed how to run the assembler on Windows and Linux/Ubuntu below. The complete instructions to run the assembler and the input and output explanation along with the methodolgy used can be found in this [manual](https://github.com/Uviveknarayan/SIC-XE-Assembler/blob/main/21114108_SIC-XE%20assembler%20Manual.pdf).
 #### Windows
 ```
 1. Run g++ Pass2.cpp
@@ -28,7 +40,6 @@ The instructions to run the assembler and the input and output explanation along
 2. ./a.out
 3. Give input file name as input.
 ```
-For more detailed instructions refer to this [pdf file](https://github.com/Uviveknarayan/SIC-XE-Assembler/blob/main/21114108_SIC-XE%20assembler%20Manual.pdf).
 ## Installation
 
 Clone this repository:
