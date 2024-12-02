@@ -1,5 +1,5 @@
 # SIC-XE-Assembler
-This was a tutorial as part of our CSN-252 course(System Software) in IIT Roorkee.
+This repository contains the code for SIC-XE Assembler which works on the SIC-XE assembly language instructions and outputs machine language code in binary. I have included support for program blocks in my assembler and it is written in C++ based on principles we learnt in the course CSN-252 (System Software).
 ## About SIC-XE
 **SIC-XE** stands for **Simplified Instructional Computer Extended Version** which is backward compatible with SIC. It was introduced in the book **System Software by LL Beck** for explaining major characteristics and  traits of assembly languages through just one language. In my assembler I have aimed to incorporate all characteristics of SIC-XE and Program blocks. The assembler is designed in the conventional two pass manner. The first pass aims to store the variables and populate the symbol table and the second pass then starts translating the assembly code to machine code.
 
